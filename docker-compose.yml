@@ -1,0 +1,7 @@
+version: '3'
+services:
+  website:
+    image: obyrned/say-hello
+    ports:
+      - "5000:5000"
+    restart: always
